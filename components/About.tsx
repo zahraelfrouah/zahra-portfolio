@@ -26,9 +26,9 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, and REST APIs
+         MERN
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+         , and I’m also familiar with NextJS and modern web development tools. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.

@@ -35,51 +35,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated from university",
+    title: "Programming Instructor & Association Member",
     location: "Morocco, Agadir",
     description:
-      "I graduated after 2 years of studying. I immediately found a job as a front-end developer.",
+      "Taught programming to students through the MADEE Association, strengthening technical skills, teamwork, and communication. Adapted teaching approaches to different learning styles and collaborated with team members to create a supportive learning environment.",
     icon: React.createElement(LuGraduationCap),
+    date: "2022-2024",
+  },
+  {
+    title: " Full-Stack Web Developer Intern",
+    location: "Morocco, Agadir",
+    description:
+      "Contributed to the development of a real-world company website and dashboard, working across both front-end and back-end. Built responsive user interfaces using React, Next.js, TypeScript, and Tailwind CSS, and worked on back-end development with Node.js, Express, and Prisma. Collaborated with the team using Jira, Git, and Bitbucket, while using Figma to support UI/UX design.",
+    icon: React.createElement(CgWorkAlt),
     date: "2024",
   },
-  {
-    title: "Front-End Developer",
-    location: "Morocco, Agadir",
-    description:
-      "I worked as a front-end developer for 3 months . I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 - 2025",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Morocco, Casablanca",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2025 - present",
-  },
+  
 ] as const;
 
 export const projectsData = [
   {
-    title: "first project",
+    title: "MOVE DABA",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "MoveDava is a comprehensive moving services platform designed to simplify the relocation process for clients.",
+    tags: ["React", "Next.js", "Swiper", "Tailwind", "Axios","Redux"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "second project",
+    title: "Cinema",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Cinema is a movie discovery web application that allows users to explore movies, search by title, filter results, view movie details, and watch trailers.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB","NodeJs","Express","REST API"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "third project",
+    title: "MY PORTFOLIO",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "it's a landing page about my Projects ,Skills and also my Experiences ",
+    tags: ["React", "TypeScript", "Tailwind" ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -96,9 +89,8 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
+  "Mongose",
   "Redux",
-  "GraphQL",
   "Express",
-  "PostgreSQL",
   "Framer Motion",
 ] as const;
