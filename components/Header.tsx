@@ -10,13 +10,17 @@ import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Header() {
-  const { activeSection, setActiveSection } = useActiveSectionContext();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  type Section = (typeof links)[number]["name"];
 
-  const handleLinkClick = (name: string) => {
-    setActiveSection(name);
-    setIsMenuOpen(false);
-  };
+const [activeSection, setActiveSection] =
+  useState<Section>("Home");
+
+const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+const handleLinkClick = (name: Section) => {
+  setActiveSection(name);
+  setIsMenuOpen(false);
+};
 
   return (
     <header className="relative z-[999]">
