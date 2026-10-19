@@ -68,13 +68,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB","NodeJs","Express","REST API"],
     imageUrl: rmtdevImg,
   },
-  {
-    title: "MY PORTFOLIO",
-    description:
-      "it's a landing page about my Projects ,Skills and also my Experiences ",
-    tags: ["React", "TypeScript", "Tailwind" ],
-    imageUrl: wordanalyticsImg,
-  },
+ 
 ] as const;
 
 export const skillsData = [
